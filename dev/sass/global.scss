@@ -1,0 +1,16 @@
+body {
+    background-color:$bg-primary; /* Пример цвета фона */
+    color: #fff; /* Пример цвета текста */
+}
+
+a {
+    color: #007bff; /* Пример цвета ссылок */
+    &:hover {
+        color: #0056b3; /* Пример цвета при наведении на ссылку */
+        text-decoration: none;
+    }
+}
+
+.container-xxl {
+    max-width: 1820px;
+}
